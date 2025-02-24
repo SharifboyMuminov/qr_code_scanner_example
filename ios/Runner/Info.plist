@@ -45,5 +45,25 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Fayllarni yuklab olish uchun ruxsat so'ralmoqda.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Fayllarni yuklab olish uchun ruxsat so'ralmoqda.</string>
+    <key>NSMediaLibraryUsageDescription</key>
+    <string>Media fayllarga kirish uchun ruxsat kerak</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>Fayllarni hujjatlar papkasiga saqlash uchun ruxsat kerak</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>file</string>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+
 </dict>
 </plist>

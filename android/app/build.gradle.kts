@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.qr_code_scanner_example"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 34
     ndkVersion = "27.0.12077973"
 
     compileOptions {
